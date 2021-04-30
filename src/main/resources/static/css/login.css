@@ -1,0 +1,103 @@
+
+
+.Container{
+       height: 100vh;
+       align-items:stretch;
+       display: flex;
+}
+
+.Content{
+    display:flex;
+    width: 100%;
+    height: 100vh;
+    max-width:700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.formLogin{
+      margin: 80px 0;
+      width: 340px;
+      text-align:center;
+      display:flex;
+      flex-direction:column;
+}
+
+.titlesLogin{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #009879;
+}
+
+.titlesLogin span{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.containerInputLogin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #009879;
+    background: #FFF;
+    border-radius: 10px;
+    color: #009879;
+    padding: 16px; 
+
+}
+
+.containerInputLogin input{
+     flex: 1;
+     color:#009879;
+     margin-left: 10px;
+     border: 0;
+}
+
+.titleStrong{
+    width: 100%;
+    padding: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+
+.ContainerButtonLogin{
+    height:56px;
+    width:100%;
+    border:0;
+    color: #FFF;
+    padding: 0 16px;
+    margin-top: 16px; 
+    transition: background-color 0.2s;
+    background:#009879 ;
+    box-shadow: 0px 10px 25px #78ca97;
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.backgroundLogin{
+    flex: 1;
+    background: url("/img/icesp.png") no-repeat;
+    background-size: cover;
+}
+

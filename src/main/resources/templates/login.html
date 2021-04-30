@@ -1,0 +1,46 @@
+<html xmlns:th="https://www.thymeleaf.org">
+
+<head>
+    <title>Please Login</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/global.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/login.css}" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="Container">
+          
+        <div class="backgroundLogin" > 
+            
+        </div>
+
+        <div class="Content">
+            <div class="titlesLogin">
+                <strong>Olá, seja bem-vindo!</strong>
+                <span>Para acessar a plataforma, faça seu login.</span>
+            </div>
+            <form th:action="@{/login}" method="post" class="formLogin">
+                <div class="titleStrong">
+                    <strong >Email</strong>
+                </div>
+                <div class="containerInputLogin">
+                    <i class="material-icons">email</i>
+                    <input type="text" id="username" name="username" />
+                </div>
+                <div class="titleStrong">
+                    <strong >Password</strong>
+                </div>
+                <div class="containerInputLogin">
+                    <i class="material-icons">lock</i>
+                    <input type="password" id="password" name="password" />
+                </div>
+                <div >
+                    <button class="ContainerButtonLogin" type="submit">Entrar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
